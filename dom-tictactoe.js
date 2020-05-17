@@ -15,6 +15,23 @@ let board = [
   ['','','']
 ];
 
+
+
+const displayPlayers = () => {
+  let playerOne = document.getElementById("playerOne").value;
+  let playerTwo = document.getElementById("playerTwo").value;
+  playerOne = playerOne.trim();
+  playerTwo = playerTwo.trim();
+  document.getElementById("player-names").innerHTML = playerOne + " vs. " + playerTwo;
+  return playerOne + "vs." + playerTwo;
+}
+
+// const displayPlayers = () => {
+// let playerOne = "";
+// let playerTwo = "";
+// document.getElementById("player-names").innerText = playerOne + playerTwo
+// return playerOne + "&" + playerTwo
+// }
 // is called when a square is clicked. "this" = element here
 const handleClick = (element) => {
   // check to see if the square clicked has anything in it, if not continue
@@ -116,6 +133,7 @@ const resetBoard = () => {
     ['','','']
   ];
 }
+
 
 // **BONUSES**
 

@@ -72,8 +72,8 @@ const diagonalWin = () => {
 const checkForWin = () => {
   // Your code here call each of the check for types of wins
   if(horizontalWin() || verticalWin() || diagonalWin()) {
-    return ("You Won!");
-    return true
+   return "You won!";
+   return true 
   } else {
     ticTacToe()
   }

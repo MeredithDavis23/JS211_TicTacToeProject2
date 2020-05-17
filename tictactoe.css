@@ -1,7 +1,33 @@
+body {
+  background-color: darkcyan;
+  font-family: 'Pangolin', cursive;
+}
+.jumbotron {
+  height: 300px;
+  background-color: rgb(102, 25, 102);
+  color: aliceblue;
+}
+.btn {
+  background-color:lightseagreen;
+  border:black 2px solid;
+  margin-top: -30px;
+}
 td{
   height:150px;
   width:150px;
   text-align: center;
   border: 5px solid black;
   font-size: 100px;
+  background-color: cornsilk;
+}
+
+#player-names {
+  display: block;
+  text-align: center;
+  height: 50px;
+  font-size: 25px;
+  font-style: bold;
+  color: white;
+  margin-top: 30px;
+
 }
